@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/logo1.png" type="image/x-icon">
+
+  <title>Trapple - Food Delivery</title>
+</head>
+
+<body>
+  <!-- Image and text -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Trapple
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="gallery.html">Snaps</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="restaurants.html" target="_blank">Hotels</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="cities.html" target="_blank">Cities</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html" target="_blank">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <div class="popup-container">
+          <label class="popup-button" for="login-popup">Login</label>
+          <input type="checkbox" id="login-popup">
+          <div class="popup">
+            <label for="login-popup" class="transparent-label"></label>
+            <div class="popup-inner">
+              <div class="popup-title">
+                <h6>Sign Up</h6>
+                <label for="login-popup" class="popup-close-btn">Close</label>
+              </div>
+              <div class="popup-content">
+                <form action="">
+                  <ul>
+                    <li>
+                      <input type="text" placeholder="Name">
+                    </li>
+                    <li>
+                    <li>
+                      <input type="email" placeholder="Email">
+                    </li>
+                    <li>
+                      <input type="text" placeholder="Phone">
+                    </li>
+                    <li>
+                      <input type="text" placeholder="Username">
+                    </li>
+                    <li>
+                      <input type="password" placeholder="Password">
+                    </li>
+                    <li>
+                      <button type="submit">Log in</button>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron bg-cover">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1 class="display-3 mb-1">Trapple</h1>
+      <p class="lead"> <span>Food Delivery On the Go!</span></p>
+    </div>
+  </div>
+
+  <section class="container pt-3 mb-3">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-1  order-md-2">
+        <img class="img-fluid" src="images\doorstep.jpg">
+      </div>
+      <div class="col-md-6 order-2 order-md-1">
+        <div class="row" id="change-align">
+          <div class="col-10 col-lg-8">
+            <h2>Find restaurants and cafés that deliver right to your doorstep</h2> <br>
+            <div align="center">
+            </div> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container pt-3 mb-3">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-1  order-md-2">
+        <img class="img-fluid" src="images\menu.jpg">
+      </div>
+      <div class="col-md-6 order-2 order-md-1">
+        <div class="row">
+          <div class="col-10 col-lg-8">
+            <h2>Flip through the menus and make your order in seconds</h2> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container pt-3 mb-3">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-1  order-md-2">
+        <img class="img-fluid" src="images\gps.jpg">
+      </div>
+      <div class="col-md-6 order-2 order-md-1">
+        <div class="row" id="change-align">
+          <div class="col-10 col-lg-8">
+            <h2>Track your order at all times, from the restaurant to your doorstep</h2> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="f">
+    <span class="f-copy">Copyright &copy; 2020 Trapple 🍔</span>
+    <a style="text-decoration: none;color:white;float:right;" class="fa fa-instagram fa-3x social"
+      href="http://www.instagram.com/__trapple__" target="_blank"></a>
+
+  </div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

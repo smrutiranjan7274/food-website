@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffff99;
+}
+
+.tcimg {
+  height: 200px;
+  width: 200px;
+}
+
+.A1 {
+  letter-spacing: 2px;
+  padding: 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.A2 {
+  padding: 0px 100px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 801px) {
+  .A1 {
+    padding: 0;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .A2 {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
