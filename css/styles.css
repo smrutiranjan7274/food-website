@@ -8,8 +8,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-
 .navbar {
   background-color: #000000;
 }
@@ -25,26 +23,23 @@ a:hover {
 }
 
 .jumbotron {
-  background-image: url("images/a.jpg");
+  background-size: cover;
+  background-image: url("/images/a.jpg");
   text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  object-fit: cover;
   text-shadow: 2px 2px #000;
 }
 
 .lead span {
   color: orange;
   font-weight: bold;
-
 }
 
 .bg-cover {
-  background-size: cover;
   color: white;
   background-position: center center;
   position: relative;
   z-index: -2;
-  height: 100vh;
 }
 
 .overlay {
@@ -74,7 +69,6 @@ a:hover {
 
 h3 {
   padding-top: 30px;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {

@@ -14,6 +14,17 @@ body {
   height: 200px;
   width: 200px;
 }
+.f {
+  display: block;
+  padding: 9px;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  background-color: #993300;
+  color: white;
+  text-align: center;
+  height: 57px;
+}
 
 h3 {
   padding: 0;

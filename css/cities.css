@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
 
 * {
   box-sizing: border-box;
-
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  background: rgb(193, 209, 24);
-  background: linear-gradient(270deg, rgba(193, 209, 24, 1) 40%, rgba(250, 255, 0, 1) 63%);
+  margin: 0;
 }
 
 
@@ -22,12 +20,8 @@ p {
 }
 
 .tcimg {
-  position: relative;
   height: 210px;
   width: 210px;
-  left: 40px;
-  top: 30px;
-
 }
 
 body {
@@ -46,7 +40,17 @@ body {
   flex-wrap: wrap;
   padding: 0 3px;
 }
-
+.f {
+  display: block;
+  padding: 9px;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  background-color: #993300;
+  color: white;
+  text-align: center;
+  height: 57px;
+}
 .column {
   flex: 25%;
   max-width: 25%;
